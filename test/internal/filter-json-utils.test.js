@@ -50,7 +50,7 @@ describe("Filter-JSON:", function () {
 
             var jsonParser = require('JSON5');
             var text = filterer.jsonToText(jsonParser, filteredObj);
-            expect(text).to.equal("{b:2,c:3}");
+            expect(text).to.equal("{b:2,a:1}");
         });
 
         it("Nested", function () {

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
     <title>Icon</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <path d="M54,70.1111111 L20,21 L110,21 L76.9980469,68.6694878 L76.9980469,97 L54,111 L54,70.1111111 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="94" height="94">
+            <rect x="18" y="19" width="94" height="94" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="Rectangle-1" fill="#39CB75" x="0" y="0" width="128" height="128"></rect>
-        <text id="-" font-family="SourceCodePro-Black, Source Code Pro" font-size="15" font-weight="700" fill="#FFFFFF">
-            <tspan x="40" y="29"> </tspan>
-            <tspan x="40" y="48">a: true,</tspan>
-            <tspan x="40" y="67">b: { . },</tspan>
-            <tspan x="40" y="86">c: [ . ]</tspan>
-        </text>
-        <text id="{" font-family="SourceCodePro-Bold, Source Code Pro" font-size="48" font-weight="bold" fill="#FFFFFF">
-            <tspan x="6" y="47">{</tspan>
-        </text>
-        <text id="}" font-family="SourceCodePro-Bold, Source Code Pro" font-size="48" font-weight="bold" fill="#FFFFFF">
-            <tspan x="13" y="107">}</tspan>
-        </text>
+        <rect id="Rectangle-1" fill="#3B9AD9" x="0" y="0" width="128" height="128"></rect>
+        <g id="Combined-Shape">
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <use stroke="#93C7E9" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+        </g>
     </g>
 </svg>
